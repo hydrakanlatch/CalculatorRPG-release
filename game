@@ -68,6 +68,7 @@ while True:
     elif act == 2:
         if 100 <= HP:
             print('Вы съели лотус просто так :/')
+            HP = 100
         else:
             print('Вы съели лотус и восстановили 5 HP')
             HP = HP + 5
@@ -124,6 +125,7 @@ while True:
     elif act == 2:
         if 100 <= HP:
             print('Вы съели лотус просто так :/')
+            HP = 100 
         else:
             print('Вы съели лотус и восстановили 5 HP')
             HP = HP + 5
